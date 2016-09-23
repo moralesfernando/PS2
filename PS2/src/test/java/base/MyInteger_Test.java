@@ -28,7 +28,11 @@ public class MyInteger_Test {
 
 	@Test
 	public void test() {
-		assertTrue(1==1);
+		myInteger int1 = new myInteger(5);
+		
+		int expectediValue=5;
+		int actualiValue=int1.getiValue();
+		assertEquals(expectediValue,actualiValue,0.001);
 	}
 
 }
